@@ -1,0 +1,1713 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Morales",
+      "email": "demo@resto.mx",
+      "password": "82d3781b4c732dfa86bd8b744b84fa11:3d0bd2776347c9ca8bf04afd0ecb587ae28dd44ae91b02eea15e3d7689e3371b6b9c7880814733f33796d056a199256184ea19529a02133ef9633c466b65ed9e",
+      "role": "Administrador",
+      "restaurant": "Casa Sabor"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "c48fdb82d432",
+      "name": "Distribuidora La Fresca",
+      "contact": "Ramiro Avila",
+      "email": "ventas@lafresca.mx",
+      "phone": "55 1234 5678",
+      "category": "Verduras",
+      "address": "CDMX",
+      "notes": ""
+    },
+    {
+      "id": "b979e64c6908",
+      "name": "Carnes Premium",
+      "contact": "Laura Guzman",
+      "email": "pedidos@cp.mx",
+      "phone": "81 9876 5432",
+      "category": "Carnes",
+      "address": "Monterrey",
+      "notes": ""
+    },
+    {
+      "id": "661476ad6f2e",
+      "name": "Lacteos San Juan",
+      "contact": "Miguel Rios",
+      "email": "contacto@lsj.mx",
+      "phone": "55 4455 6677",
+      "category": "Lacteos",
+      "address": "Toluca",
+      "notes": ""
+    },
+    {
+      "id": "1469b41fa089",
+      "name": "Bebidas y Mas",
+      "contact": "Fernanda Solis",
+      "email": "ventas@bym.mx",
+      "phone": "55 3322 1100",
+      "category": "Bebidas",
+      "address": "CDMX",
+      "notes": ""
+    },
+    {
+      "id": "55ea10f83bac",
+      "name": "Mariscos del Pacifico",
+      "contact": "Ana Beltran",
+      "email": "p@mp.mx",
+      "phone": "33 2211 4455",
+      "category": "Mariscos",
+      "address": "GDL",
+      "notes": ""
+    }
+  ],
+  "customers": [
+    {
+      "createdAt": "2026-10-04T06:31:33.170Z",
+      "email": "son500varos@gmail.com",
+      "id": "f11029e513b8",
+      "name": "Mario Castaeda",
+      "notes": "GOKU",
+      "phone": "3367676721"
+    },
+    {
+      "id": "e0de00d7d21c",
+      "name": "Ana Torres",
+      "email": "ana.torres@mail.com",
+      "phone": "55 1222 2444",
+      "notes": "",
+      "createdAt": "2026-05-06T05:01:25.146Z"
+    },
+    {
+      "id": "6e366b4db43d",
+      "name": "Luis Fernandez",
+      "email": "luis.fernandez@mail.com",
+      "phone": "55 1333 2666",
+      "notes": "",
+      "createdAt": "2026-05-21T05:01:25.146Z"
+    },
+    {
+      "id": "8395fcb70acc",
+      "name": "Sofia Mendoza",
+      "email": "sofia.mendoza@mail.com",
+      "phone": "55 1444 2888",
+      "notes": "",
+      "createdAt": "2026-06-05T05:01:25.146Z"
+    },
+    {
+      "id": "572d1eec2833",
+      "name": "Jorge Castillo",
+      "email": "jorge.castillo@mail.com",
+      "phone": "55 1555 3110",
+      "notes": "",
+      "createdAt": "2026-06-20T05:01:25.146Z"
+    },
+    {
+      "id": "ddb2e09d4874",
+      "name": "Paola Rios",
+      "email": "paola.rios@mail.com",
+      "phone": "55 1666 3332",
+      "notes": "",
+      "createdAt": "2026-07-05T05:01:25.146Z"
+    },
+    {
+      "id": "9b91cd7f9556",
+      "name": "Andres Vargas",
+      "email": "andres.vargas@mail.com",
+      "phone": "55 1777 3554",
+      "notes": "",
+      "createdAt": "2026-07-20T05:01:25.146Z"
+    },
+    {
+      "id": "ef6d61ba3d30",
+      "name": "Daniela Cruz",
+      "email": "daniela.cruz@mail.com",
+      "phone": "55 1888 3776",
+      "notes": "",
+      "createdAt": "2026-08-04T05:01:25.146Z"
+    },
+    {
+      "id": "dc024ac4393f",
+      "name": "Ricardo Ortiz",
+      "email": "ricardo.ortiz@mail.com",
+      "phone": "55 1999 3998",
+      "notes": "",
+      "createdAt": "2026-08-19T05:01:25.146Z"
+    }
+  ],
+  "inventory": [
+    {
+      "name": "Jitomate saladet",
+      "category": "Verduras",
+      "quantity": 24,
+      "unit": "kg",
+      "minStock": 10,
+      "unitCost": 32,
+      "id": "22dac92d7cbd",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Cebolla blanca",
+      "category": "Verduras",
+      "quantity": 18,
+      "unit": "kg",
+      "minStock": 8,
+      "unitCost": 26,
+      "id": "491e733204ab",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Aguacate Hass",
+      "category": "Verduras",
+      "quantity": 11,
+      "unit": "kg",
+      "minStock": 10,
+      "unitCost": 85,
+      "id": "95b5c584d223",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Chile serrano",
+      "category": "Verduras",
+      "quantity": 5,
+      "unit": "kg",
+      "minStock": 4,
+      "unitCost": 55,
+      "id": "b4441c7fa7ff",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Arrachera de res",
+      "category": "Carnes",
+      "quantity": 15,
+      "unit": "kg",
+      "minStock": 8,
+      "unitCost": 320,
+      "id": "d990deec5f81",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Pollo entero",
+      "category": "Carnes",
+      "quantity": 20,
+      "unit": "kg",
+      "minStock": 10,
+      "unitCost": 95,
+      "id": "5cd0c346fda8",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Queso Oaxaca",
+      "category": "Lacteos",
+      "quantity": 8,
+      "unit": "kg",
+      "minStock": 4,
+      "unitCost": 180,
+      "id": "2df46453984c",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Tortillas de maiz",
+      "category": "Abarrotes",
+      "quantity": 30,
+      "unit": "kg",
+      "minStock": 15,
+      "unitCost": 24,
+      "id": "a6fd5b8a2675",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Refresco 500ml",
+      "category": "Bebidas",
+      "quantity": 48,
+      "unit": "pza",
+      "minStock": 24,
+      "unitCost": 18,
+      "id": "ef9a0fff449a",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Cerveza artesanal",
+      "category": "Bebidas",
+      "quantity": 24,
+      "unit": "pza",
+      "minStock": 36,
+      "unitCost": 38,
+      "id": "4d565ebf5ae0",
+      "supplierId": "c48fdb82d432"
+    },
+    {
+      "name": "Camaron mediano",
+      "category": "Mariscos",
+      "quantity": 7,
+      "unit": "kg",
+      "minStock": 5,
+      "unitCost": 290,
+      "id": "5f46ee8a6c01",
+      "supplierId": "c48fdb82d432"
+    }
+  ],
+  "orders": [
+    {
+      "code": "ORD-1083",
+      "createdAt": "2026-10-04T06:33:31.813Z",
+      "customerId": "f11029e513b8",
+      "customerName": "Mario Castaeda",
+      "id": "30fa94d88aa5",
+      "items": [
+        {
+          "name": "Tacos",
+          "price": 12,
+          "qty": 20
+        },
+        {
+          "name": "lonches",
+          "price": 38,
+          "qty": 1
+        }
+      ],
+      "notes": "",
+      "status": "pendiente",
+      "total": 278,
+      "type": "Local"
+    },
+    {
+      "id": "33f27d053a26",
+      "code": "ORD-1042",
+      "customerId": "dc024ac4393f",
+      "customerName": "Ricardo Ortiz",
+      "items": [
+        {
+          "name": "Flan Napolitano",
+          "qty": 3,
+          "price": 60
+        },
+        {
+          "name": "Enchiladas Verdes",
+          "qty": 1,
+          "price": 120
+        }
+      ],
+      "total": 300,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-09-06T23:01:25.146Z"
+    },
+    {
+      "id": "ae8ff7fcec07",
+      "code": "ORD-1043",
+      "customerId": "6e366b4db43d",
+      "customerName": "Luis Fernandez",
+      "items": [
+        {
+          "name": "Enchiladas Verdes",
+          "qty": 3,
+          "price": 120
+        },
+        {
+          "name": "Agua de Horchata",
+          "qty": 2,
+          "price": 35
+        }
+      ],
+      "total": 430,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-01T21:01:25.146Z"
+    },
+    {
+      "id": "9a351f5d6e7e",
+      "code": "ORD-1044",
+      "customerId": "ef6d61ba3d30",
+      "customerName": "Daniela Cruz",
+      "items": [
+        {
+          "name": "Pozole Rojo",
+          "qty": 2,
+          "price": 140
+        }
+      ],
+      "total": 280,
+      "status": "completada",
+      "type": "Para llevar",
+      "notes": "",
+      "createdAt": "2026-08-29T18:01:25.146Z"
+    },
+    {
+      "id": "7ef6b14b378e",
+      "code": "ORD-1045",
+      "customerId": "572d1eec2833",
+      "customerName": "Jorge Castillo",
+      "items": [
+        {
+          "name": "Carne Asada",
+          "qty": 2,
+          "price": 220
+        },
+        {
+          "name": "Flan Napolitano",
+          "qty": 3,
+          "price": 60
+        },
+        {
+          "name": "Chiles en Nogada",
+          "qty": 3,
+          "price": 185
+        }
+      ],
+      "total": 1175,
+      "status": "cancelada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-30T02:01:25.146Z"
+    },
+    {
+      "id": "276ab4cd1979",
+      "code": "ORD-1046",
+      "customerId": "e8ec3ee579b3",
+      "customerName": "Maria Gonzalez",
+      "items": [
+        {
+          "name": "Tacos al Pastor",
+          "qty": 1,
+          "price": 95
+        },
+        {
+          "name": "Chiles en Nogada",
+          "qty": 1,
+          "price": 185
+        }
+      ],
+      "total": 280,
+      "status": "completada",
+      "type": "Para llevar",
+      "notes": "",
+      "createdAt": "2026-08-26T02:01:25.146Z"
+    },
+    {
+      "id": "2c102ddfa86c",
+      "code": "ORD-1047",
+      "customerId": "ddb2e09d4874",
+      "customerName": "Paola Rios",
+      "items": [
+        {
+          "name": "Chiles en Nogada",
+          "qty": 1,
+          "price": 185
+        },
+        {
+          "name": "Cerveza Artesanal",
+          "qty": 1,
+          "price": 65
+        },
+        {
+          "name": "Chiles en Nogada",
+          "qty": 2,
+          "price": 185
+        }
+      ],
+      "total": 620,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-27T22:01:25.146Z"
+    },
+    {
+      "id": "4d358c13a4cd",
+      "code": "ORD-1048",
+      "customerId": "dc024ac4393f",
+      "customerName": "Ricardo Ortiz",
+      "items": [
+        {
+          "name": "Pozole Rojo",
+          "qty": 2,
+          "price": 140
+        },
+        {
+          "name": "Mole Poblano",
+          "qty": 1,
+          "price": 165
+        },
+        {
+          "name": "Mole Poblano",
+          "qty": 3,
+          "price": 165
+        }
+      ],
+      "total": 940,
+      "status": "completada",
+      "type": "Para llevar",
+      "notes": "",
+      "createdAt": "2026-09-16T23:01:25.146Z"
+    },
+    {
+      "id": "83bcb4ee3f8d",
+      "code": "ORD-1049",
+      "customerId": "8395fcb70acc",
+      "customerName": "Sofia Mendoza",
+      "items": [
+        {
+          "name": "Chiles en Nogada",
+          "qty": 1,
+          "price": 185
+        }
+      ],
+      "total": 185,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-29T22:01:25.146Z"
+    },
+    {
+      "id": "a5c92cfe568e",
+      "code": "ORD-1050",
+      "customerId": "572d1eec2833",
+      "customerName": "Jorge Castillo",
+      "items": [
+        {
+          "name": "Cerveza Artesanal",
+          "qty": 2,
+          "price": 65
+        },
+        {
+          "name": "Enchiladas Verdes",
+          "qty": 1,
+          "price": 120
+        },
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 2,
+          "price": 210
+        }
+      ],
+      "total": 670,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-08-19T20:01:25.146Z"
+    },
+    {
+      "id": "a6cb2078c8bf",
+      "code": "ORD-1051",
+      "customerId": "8395fcb70acc",
+      "customerName": "Sofia Mendoza",
+      "items": [
+        {
+          "name": "Cerveza Artesanal",
+          "qty": 2,
+          "price": 65
+        },
+        {
+          "name": "Carne Asada",
+          "qty": 1,
+          "price": 220
+        }
+      ],
+      "total": 350,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-18T04:01:25.146Z"
+    },
+    {
+      "id": "3de1d43699b3",
+      "code": "ORD-1052",
+      "customerId": "dc024ac4393f",
+      "customerName": "Ricardo Ortiz",
+      "items": [
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 2,
+          "price": 210
+        },
+        {
+          "name": "Mole Poblano",
+          "qty": 2,
+          "price": 165
+        }
+      ],
+      "total": 750,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-22T05:01:25.146Z"
+    },
+    {
+      "id": "325bde633ec6",
+      "code": "ORD-1053",
+      "customerId": "ddb2e09d4874",
+      "customerName": "Paola Rios",
+      "items": [
+        {
+          "name": "Flan Napolitano",
+          "qty": 1,
+          "price": 60
+        },
+        {
+          "name": "Agua de Horchata",
+          "qty": 1,
+          "price": 35
+        }
+      ],
+      "total": 95,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-09-18T18:01:25.146Z"
+    },
+    {
+      "id": "793748f3a28a",
+      "code": "ORD-1054",
+      "customerId": "9b91cd7f9556",
+      "customerName": "Andres Vargas",
+      "items": [
+        {
+          "name": "Enchiladas Verdes",
+          "qty": 1,
+          "price": 120
+        }
+      ],
+      "total": 120,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-05T03:01:25.146Z"
+    },
+    {
+      "id": "736dd105d47c",
+      "code": "ORD-1055",
+      "customerId": "e0de00d7d21c",
+      "customerName": "Ana Torres",
+      "items": [
+        {
+          "name": "Enchiladas Verdes",
+          "qty": 2,
+          "price": 120
+        }
+      ],
+      "total": 240,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-22T20:01:25.146Z"
+    },
+    {
+      "id": "7853a7b953b6",
+      "code": "ORD-1056",
+      "customerId": "9b91cd7f9556",
+      "customerName": "Andres Vargas",
+      "items": [
+        {
+          "name": "Flan Napolitano",
+          "qty": 1,
+          "price": 60
+        },
+        {
+          "name": "Carne Asada",
+          "qty": 2,
+          "price": 220
+        },
+        {
+          "name": "Flan Napolitano",
+          "qty": 3,
+          "price": 60
+        }
+      ],
+      "total": 680,
+      "status": "completada",
+      "type": "Para llevar",
+      "notes": "",
+      "createdAt": "2026-08-25T05:01:25.146Z"
+    },
+    {
+      "id": "7ab5d0f56336",
+      "code": "ORD-1057",
+      "customerId": "6e366b4db43d",
+      "customerName": "Luis Fernandez",
+      "items": [
+        {
+          "name": "Tacos al Pastor",
+          "qty": 3,
+          "price": 95
+        },
+        {
+          "name": "Carne Asada",
+          "qty": 3,
+          "price": 220
+        },
+        {
+          "name": "Agua de Horchata",
+          "qty": 3,
+          "price": 35
+        }
+      ],
+      "total": 1050,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-28T19:01:25.146Z"
+    },
+    {
+      "id": "dcdd4445f5e9",
+      "code": "ORD-1058",
+      "customerId": "ddb2e09d4874",
+      "customerName": "Paola Rios",
+      "items": [
+        {
+          "name": "Agua de Horchata",
+          "qty": 3,
+          "price": 35
+        },
+        {
+          "name": "Tacos al Pastor",
+          "qty": 3,
+          "price": 95
+        }
+      ],
+      "total": 390,
+      "status": "preparando",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-10-02T00:01:25.146Z"
+    },
+    {
+      "id": "a463d6444a49",
+      "code": "ORD-1059",
+      "customerId": "b58a60010c9f",
+      "customerName": "Carlos Ramirez",
+      "items": [
+        {
+          "name": "Tacos al Pastor",
+          "qty": 1,
+          "price": 95
+        },
+        {
+          "name": "Enchiladas Verdes",
+          "qty": 1,
+          "price": 120
+        }
+      ],
+      "total": 215,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-09-26T05:01:25.146Z"
+    },
+    {
+      "id": "f9e487ab64e8",
+      "code": "ORD-1060",
+      "customerId": "6e366b4db43d",
+      "customerName": "Luis Fernandez",
+      "items": [
+        {
+          "name": "Pozole Rojo",
+          "qty": 2,
+          "price": 140
+        },
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 2,
+          "price": 210
+        }
+      ],
+      "total": 700,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-31T01:01:25.146Z"
+    },
+    {
+      "id": "9fd07b809d92",
+      "code": "ORD-1061",
+      "customerId": "b58a60010c9f",
+      "customerName": "Carlos Ramirez",
+      "items": [
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 2,
+          "price": 210
+        }
+      ],
+      "total": 420,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-17T23:01:25.146Z"
+    },
+    {
+      "id": "bb217ed860ff",
+      "code": "ORD-1062",
+      "customerId": "ddb2e09d4874",
+      "customerName": "Paola Rios",
+      "items": [
+        {
+          "name": "Mole Poblano",
+          "qty": 3,
+          "price": 165
+        }
+      ],
+      "total": 495,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-01T04:01:25.146Z"
+    },
+    {
+      "id": "e3940bac23b4",
+      "code": "ORD-1063",
+      "customerId": "9b91cd7f9556",
+      "customerName": "Andres Vargas",
+      "items": [
+        {
+          "name": "Carne Asada",
+          "qty": 3,
+          "price": 220
+        },
+        {
+          "name": "Tacos al Pastor",
+          "qty": 1,
+          "price": 95
+        }
+      ],
+      "total": 755,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-20T23:01:25.146Z"
+    },
+    {
+      "id": "7702a6973638",
+      "code": "ORD-1064",
+      "customerId": "b58a60010c9f",
+      "customerName": "Carlos Ramirez",
+      "items": [
+        {
+          "name": "Carne Asada",
+          "qty": 2,
+          "price": 220
+        }
+      ],
+      "total": 440,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-24T22:01:25.146Z"
+    },
+    {
+      "id": "d7dbac2ec735",
+      "code": "ORD-1065",
+      "customerId": "9b91cd7f9556",
+      "customerName": "Andres Vargas",
+      "items": [
+        {
+          "name": "Tacos al Pastor",
+          "qty": 3,
+          "price": 95
+        },
+        {
+          "name": "Flan Napolitano",
+          "qty": 2,
+          "price": 60
+        }
+      ],
+      "total": 405,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-09-28T22:01:25.146Z"
+    },
+    {
+      "id": "0f29c20392a1",
+      "code": "ORD-1066",
+      "customerId": "e0de00d7d21c",
+      "customerName": "Ana Torres",
+      "items": [
+        {
+          "name": "Mole Poblano",
+          "qty": 3,
+          "price": 165
+        },
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 1,
+          "price": 210
+        }
+      ],
+      "total": 705,
+      "status": "cancelada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-04T18:01:25.146Z"
+    },
+    {
+      "id": "9bb46e001e9d",
+      "code": "ORD-1067",
+      "customerId": "e8ec3ee579b3",
+      "customerName": "Maria Gonzalez",
+      "items": [
+        {
+          "name": "Chiles en Nogada",
+          "qty": 2,
+          "price": 185
+        },
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 2,
+          "price": 210
+        }
+      ],
+      "total": 790,
+      "status": "completada",
+      "type": "Para llevar",
+      "notes": "",
+      "createdAt": "2026-09-26T22:01:25.146Z"
+    },
+    {
+      "id": "29519b621551",
+      "code": "ORD-1068",
+      "customerId": "9b91cd7f9556",
+      "customerName": "Andres Vargas",
+      "items": [
+        {
+          "name": "Cerveza Artesanal",
+          "qty": 3,
+          "price": 65
+        }
+      ],
+      "total": 195,
+      "status": "cancelada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-06T22:01:25.146Z"
+    },
+    {
+      "id": "117dc9e37216",
+      "code": "ORD-1069",
+      "customerId": "ef6d61ba3d30",
+      "customerName": "Daniela Cruz",
+      "items": [
+        {
+          "name": "Chiles en Nogada",
+          "qty": 1,
+          "price": 185
+        }
+      ],
+      "total": 185,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-08-20T04:01:25.146Z"
+    },
+    {
+      "id": "d9294a1b865d",
+      "code": "ORD-1070",
+      "customerId": "6e366b4db43d",
+      "customerName": "Luis Fernandez",
+      "items": [
+        {
+          "name": "Pozole Rojo",
+          "qty": 1,
+          "price": 140
+        },
+        {
+          "name": "Chiles en Nogada",
+          "qty": 3,
+          "price": 185
+        },
+        {
+          "name": "Cerveza Artesanal",
+          "qty": 1,
+          "price": 65
+        }
+      ],
+      "total": 760,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-19T01:01:25.146Z"
+    },
+    {
+      "id": "d5d874d5128d",
+      "code": "ORD-1071",
+      "customerId": "e0de00d7d21c",
+      "customerName": "Ana Torres",
+      "items": [
+        {
+          "name": "Chiles en Nogada",
+          "qty": 2,
+          "price": 185
+        },
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 2,
+          "price": 210
+        }
+      ],
+      "total": 790,
+      "status": "cancelada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-26T03:01:25.146Z"
+    },
+    {
+      "id": "3c228dd63782",
+      "code": "ORD-1072",
+      "customerId": "9b91cd7f9556",
+      "customerName": "Andres Vargas",
+      "items": [
+        {
+          "name": "Tacos al Pastor",
+          "qty": 3,
+          "price": 95
+        }
+      ],
+      "total": 285,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-09-03T04:01:25.146Z"
+    },
+    {
+      "id": "40a451a309d2",
+      "code": "ORD-1073",
+      "customerId": "dc024ac4393f",
+      "customerName": "Ricardo Ortiz",
+      "items": [
+        {
+          "name": "Camarones a la Diabla",
+          "qty": 2,
+          "price": 210
+        },
+        {
+          "name": "Pozole Rojo",
+          "qty": 2,
+          "price": 140
+        }
+      ],
+      "total": 700,
+      "status": "cancelada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-08-25T04:01:25.146Z"
+    },
+    {
+      "id": "07132a7d30aa",
+      "code": "ORD-1074",
+      "customerId": "6e366b4db43d",
+      "customerName": "Luis Fernandez",
+      "items": [
+        {
+          "name": "Flan Napolitano",
+          "qty": 2,
+          "price": 60
+        },
+        {
+          "name": "Flan Napolitano",
+          "qty": 3,
+          "price": 60
+        }
+      ],
+      "total": 300,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-10-01T23:01:25.146Z"
+    },
+    {
+      "id": "f383b19c4089",
+      "code": "ORD-1075",
+      "customerId": "b58a60010c9f",
+      "customerName": "Carlos Ramirez",
+      "items": [
+        {
+          "name": "Pozole Rojo",
+          "qty": 1,
+          "price": 140
+        },
+        {
+          "name": "Tacos al Pastor",
+          "qty": 3,
+          "price": 95
+        }
+      ],
+      "total": 425,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-09-10T19:01:25.146Z"
+    },
+    {
+      "id": "b0016d39d331",
+      "code": "ORD-1076",
+      "customerId": "e8ec3ee579b3",
+      "customerName": "Maria Gonzalez",
+      "items": [
+        {
+          "name": "Cerveza Artesanal",
+          "qty": 3,
+          "price": 65
+        }
+      ],
+      "total": 195,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-08-28T19:01:25.146Z"
+    },
+    {
+      "id": "216b069b9349",
+      "code": "ORD-1077",
+      "customerId": "e8ec3ee579b3",
+      "customerName": "Maria Gonzalez",
+      "items": [
+        {
+          "name": "Flan Napolitano",
+          "qty": 2,
+          "price": 60
+        },
+        {
+          "name": "Flan Napolitano",
+          "qty": 3,
+          "price": 60
+        }
+      ],
+      "total": 300,
+      "status": "completada",
+      "type": "Para llevar",
+      "notes": "",
+      "createdAt": "2026-09-13T00:01:25.146Z"
+    },
+    {
+      "id": "11486d37ebc6",
+      "code": "ORD-1078",
+      "customerId": "e8ec3ee579b3",
+      "customerName": "Maria Gonzalez",
+      "items": [
+        {
+          "name": "Cerveza Artesanal",
+          "qty": 3,
+          "price": 65
+        },
+        {
+          "name": "Tacos al Pastor",
+          "qty": 2,
+          "price": 95
+        }
+      ],
+      "total": 385,
+      "status": "cancelada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-08-25T02:01:25.146Z"
+    },
+    {
+      "id": "b8c3f2f2d2a7",
+      "code": "ORD-1079",
+      "customerId": "6e366b4db43d",
+      "customerName": "Luis Fernandez",
+      "items": [
+        {
+          "name": "Pozole Rojo",
+          "qty": 1,
+          "price": 140
+        },
+        {
+          "name": "Flan Napolitano",
+          "qty": 3,
+          "price": 60
+        }
+      ],
+      "total": 320,
+      "status": "completada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-08-20T21:01:25.146Z"
+    },
+    {
+      "id": "51e07a31261d",
+      "code": "ORD-1080",
+      "customerId": "dc024ac4393f",
+      "customerName": "Ricardo Ortiz",
+      "items": [
+        {
+          "name": "Carne Asada",
+          "qty": 2,
+          "price": 220
+        },
+        {
+          "name": "Enchiladas Verdes",
+          "qty": 1,
+          "price": 120
+        },
+        {
+          "name": "Chiles en Nogada",
+          "qty": 2,
+          "price": 185
+        }
+      ],
+      "total": 930,
+      "status": "cancelada",
+      "type": "Domicilio",
+      "notes": "",
+      "createdAt": "2026-08-29T02:01:25.146Z"
+    },
+    {
+      "id": "8603fd17decc",
+      "code": "ORD-1081",
+      "customerId": "8395fcb70acc",
+      "customerName": "Sofia Mendoza",
+      "items": [
+        {
+          "name": "Agua de Horchata",
+          "qty": 2,
+          "price": 35
+        }
+      ],
+      "total": 70,
+      "status": "completada",
+      "type": "Local",
+      "notes": "",
+      "createdAt": "2026-09-01T22:01:25.146Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "2606051ea35f",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 300,
+      "description": "Orden ORD-1074 - Luis Fernandez",
+      "date": "2026-10-01T23:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "07132a7d30aa"
+    },
+    {
+      "id": "0b8779f24810",
+      "type": "expense",
+      "category": "Servicios",
+      "amount": 3311,
+      "description": "Luz, agua e internet",
+      "date": "2026-09-29T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "65f6a2a3bc43",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 405,
+      "description": "Orden ORD-1065 - Andres Vargas",
+      "date": "2026-09-28T22:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "d7dbac2ec735"
+    },
+    {
+      "id": "2046c78a2789",
+      "type": "expense",
+      "category": "Nomina",
+      "amount": 20769,
+      "description": "Nomina quincenal",
+      "date": "2026-09-28T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "efe8b5a637af",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 790,
+      "description": "Orden ORD-1067 - Maria Gonzalez",
+      "date": "2026-09-26T22:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "9bb46e001e9d"
+    },
+    {
+      "id": "ef1c6d24627a",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 215,
+      "description": "Orden ORD-1059 - Carlos Ramirez",
+      "date": "2026-09-26T05:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "a463d6444a49"
+    },
+    {
+      "id": "cb643541cbcd",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 440,
+      "description": "Orden ORD-1064 - Carlos Ramirez",
+      "date": "2026-09-24T22:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "7702a6973638"
+    },
+    {
+      "id": "2256edbb2331",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 240,
+      "description": "Orden ORD-1055 - Ana Torres",
+      "date": "2026-09-22T20:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "736dd105d47c"
+    },
+    {
+      "id": "e48a75b6dc52",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 760,
+      "description": "Orden ORD-1070 - Luis Fernandez",
+      "date": "2026-09-19T01:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "d9294a1b865d"
+    },
+    {
+      "id": "00059660086a",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 95,
+      "description": "Orden ORD-1053 - Paola Rios",
+      "date": "2026-09-18T18:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "325bde633ec6"
+    },
+    {
+      "id": "6250a507302b",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 4246,
+      "description": "Pedido de carnes",
+      "date": "2026-09-18T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "887b21d9a402",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 350,
+      "description": "Orden ORD-1051 - Sofia Mendoza",
+      "date": "2026-09-18T04:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "a6cb2078c8bf"
+    },
+    {
+      "id": "7eaefd004716",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 420,
+      "description": "Orden ORD-1061 - Carlos Ramirez",
+      "date": "2026-09-17T23:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "9fd07b809d92"
+    },
+    {
+      "id": "c94daf5037f9",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 940,
+      "description": "Orden ORD-1048 - Ricardo Ortiz",
+      "date": "2026-09-16T23:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "4d358c13a4cd"
+    },
+    {
+      "id": "473e905fd5e5",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 300,
+      "description": "Orden ORD-1077 - Maria Gonzalez",
+      "date": "2026-09-13T00:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "216b069b9349"
+    },
+    {
+      "id": "c37dd061b136",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 3975,
+      "description": "Compra de verduras",
+      "date": "2026-09-12T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "e74017678929",
+      "type": "expense",
+      "category": "Renta",
+      "amount": 22000,
+      "description": "Renta del local",
+      "date": "2026-09-11T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "4012fa04dcc4",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 425,
+      "description": "Orden ORD-1075 - Carlos Ramirez",
+      "date": "2026-09-10T19:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "f383b19c4089"
+    },
+    {
+      "id": "576d643c9931",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 7497,
+      "description": "Pedido de carnes",
+      "date": "2026-09-08T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "bd86abfb1fb1",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 2188,
+      "description": "Compra de verduras",
+      "date": "2026-09-07T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "ff10b54f0629",
+      "type": "expense",
+      "category": "Nomina",
+      "amount": 20099,
+      "description": "Nomina quincenal",
+      "date": "2026-09-07T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "c0754e507717",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 300,
+      "description": "Orden ORD-1042 - Ricardo Ortiz",
+      "date": "2026-09-06T23:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "33f27d053a26"
+    },
+    {
+      "id": "059988f41d0a",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 120,
+      "description": "Orden ORD-1054 - Andres Vargas",
+      "date": "2026-09-05T03:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "793748f3a28a"
+    },
+    {
+      "id": "a1573c0a95f6",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 285,
+      "description": "Orden ORD-1072 - Andres Vargas",
+      "date": "2026-09-03T04:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "3c228dd63782"
+    },
+    {
+      "id": "0c9be2cb5219",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 70,
+      "description": "Orden ORD-1081 - Sofia Mendoza",
+      "date": "2026-09-01T22:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "8603fd17decc"
+    },
+    {
+      "id": "08244325c904",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 430,
+      "description": "Orden ORD-1043 - Luis Fernandez",
+      "date": "2026-09-01T21:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "ae8ff7fcec07"
+    },
+    {
+      "id": "606621258f8e",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 495,
+      "description": "Orden ORD-1062 - Paola Rios",
+      "date": "2026-09-01T04:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "bb217ed860ff"
+    },
+    {
+      "id": "f703b3f70833",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 700,
+      "description": "Orden ORD-1060 - Luis Fernandez",
+      "date": "2026-08-31T01:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "f9e487ab64e8"
+    },
+    {
+      "id": "f28b61b4ecfb",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 185,
+      "description": "Orden ORD-1049 - Sofia Mendoza",
+      "date": "2026-08-29T22:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "83bcb4ee3f8d"
+    },
+    {
+      "id": "9fa45d70ac6d",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 280,
+      "description": "Orden ORD-1044 - Daniela Cruz",
+      "date": "2026-08-29T18:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "9a351f5d6e7e"
+    },
+    {
+      "id": "d196569c6b09",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 1050,
+      "description": "Orden ORD-1057 - Luis Fernandez",
+      "date": "2026-08-28T19:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "7ab5d0f56336"
+    },
+    {
+      "id": "89ae788c353e",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 195,
+      "description": "Orden ORD-1076 - Maria Gonzalez",
+      "date": "2026-08-28T19:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "b0016d39d331"
+    },
+    {
+      "id": "f4659c519fa2",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 620,
+      "description": "Orden ORD-1047 - Paola Rios",
+      "date": "2026-08-27T22:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "2c102ddfa86c"
+    },
+    {
+      "id": "c2332077c7e5",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 280,
+      "description": "Orden ORD-1046 - Maria Gonzalez",
+      "date": "2026-08-26T02:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "276ab4cd1979"
+    },
+    {
+      "id": "0d02ddfdb7a4",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 680,
+      "description": "Orden ORD-1056 - Andres Vargas",
+      "date": "2026-08-25T05:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "7853a7b953b6"
+    },
+    {
+      "id": "d8e7c9ce43bd",
+      "type": "expense",
+      "category": "Nomina",
+      "amount": 18554,
+      "description": "Nomina quincenal",
+      "date": "2026-08-24T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "e6b2e8682f0f",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 750,
+      "description": "Orden ORD-1052 - Ricardo Ortiz",
+      "date": "2026-08-22T05:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "3de1d43699b3"
+    },
+    {
+      "id": "94acd7355332",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 755,
+      "description": "Orden ORD-1063 - Andres Vargas",
+      "date": "2026-08-20T23:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "e3940bac23b4"
+    },
+    {
+      "id": "034865b7b2fa",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 320,
+      "description": "Orden ORD-1079 - Luis Fernandez",
+      "date": "2026-08-20T21:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "b8c3f2f2d2a7"
+    },
+    {
+      "id": "b0be0720b001",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 185,
+      "description": "Orden ORD-1069 - Daniela Cruz",
+      "date": "2026-08-20T04:01:25.146Z",
+      "method": "Tarjeta",
+      "orderId": "117dc9e37216"
+    },
+    {
+      "id": "b95f1fb224d4",
+      "type": "income",
+      "category": "Ventas",
+      "amount": 670,
+      "description": "Orden ORD-1050 - Jorge Castillo",
+      "date": "2026-08-19T20:01:25.146Z",
+      "method": "Efectivo",
+      "orderId": "a5c92cfe568e"
+    },
+    {
+      "id": "db97dd3c3d2f",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 7022,
+      "description": "Pedido de carnes",
+      "date": "2026-08-19T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "df3394852c23",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 7646,
+      "description": "Pedido de carnes",
+      "date": "2026-08-18T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "e4a985ccb95c",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 2254,
+      "description": "Compra de verduras",
+      "date": "2026-08-16T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "400dba016a3f",
+      "type": "expense",
+      "category": "Nomina",
+      "amount": 21581,
+      "description": "Nomina quincenal",
+      "date": "2026-08-14T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "cb45e7a34664",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 3869,
+      "description": "Compra de verduras",
+      "date": "2026-08-13T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "1cb6f78bda04",
+      "type": "expense",
+      "category": "Servicios",
+      "amount": 5499,
+      "description": "Luz, agua e internet",
+      "date": "2026-08-08T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "ccfd7fcd99e8",
+      "type": "expense",
+      "category": "Renta",
+      "amount": 22000,
+      "description": "Renta del local",
+      "date": "2026-08-07T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "0a26f670c213",
+      "type": "expense",
+      "category": "Servicios",
+      "amount": 5471,
+      "description": "Luz, agua e internet",
+      "date": "2026-07-31T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "76312bb60fcc",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 2321,
+      "description": "Compra de verduras",
+      "date": "2026-07-31T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "fbf66b49a9e7",
+      "type": "expense",
+      "category": "Renta",
+      "amount": 22000,
+      "description": "Renta del local",
+      "date": "2026-07-28T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "b700950cdf00",
+      "type": "expense",
+      "category": "Nomina",
+      "amount": 23794,
+      "description": "Nomina quincenal",
+      "date": "2026-07-18T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "a65c1a973505",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 6175,
+      "description": "Pedido de carnes",
+      "date": "2026-07-18T05:01:25.147Z",
+      "method": "Efectivo"
+    },
+    {
+      "id": "ddc03bcf0cdf",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 2583,
+      "description": "Compra de verduras",
+      "date": "2026-07-17T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "b4294efb1fb8",
+      "type": "expense",
+      "category": "Insumos",
+      "amount": 4366,
+      "description": "Pedido de carnes",
+      "date": "2026-07-11T05:01:25.147Z",
+      "method": "Transferencia"
+    },
+    {
+      "id": "04dac4330102",
+      "type": "expense",
+      "category": "Nomina",
+      "amount": 21230,
+      "description": "Nomina quincenal",
+      "date": "2026-07-10T05:01:25.147Z",
+      "method": "Transferencia"
+    }
+  ]
+}
